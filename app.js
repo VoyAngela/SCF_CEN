@@ -32,7 +32,7 @@ class UIManager {
         // Add app shell elements
         document.body.innerHTML = `
             <div class="app-header">
-                <h1>DeshDrawChat</h1>
+                <h1>AnzhelikaDrawChat</h1>
                 <div class="connection-status" id="connectionStatus"></div>
                 <button id="installPWA" class="hidden">Install App</button>
             </div>

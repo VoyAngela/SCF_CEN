@@ -106,7 +106,7 @@ self.addEventListener('push', (event) => {
     };
 
     event.waitUntil(
-        self.registration.showNotification('DeshDrawChat', options)
+        self.registration.showNotification('AnzhelikaDrawChat', options)
     );
 });
 
