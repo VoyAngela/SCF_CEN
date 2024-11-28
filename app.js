@@ -234,7 +234,7 @@ class MessagingApp {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authorization': `Bearer API-KEY-HERE`
+                    'Authorization': `Bearer API_KEY`
                 },
                 body: JSON.stringify({
                     model: "gpt-4o-mini",

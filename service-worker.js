@@ -7,7 +7,7 @@ const ASSETS_TO_CACHE = [
     '/app.js',
     '/manifest.json',
     '/offline-page.html',
-    '/DeshCapstone.png'
+    '/AnzhelikaCapstone.png'
  
 ];
 
@@ -86,7 +86,7 @@ self.addEventListener('sync', (event) => {
 self.addEventListener('push', (event) => {
     const options = {
         body: event.data ? event.data.text() : 'New message received',
-        icon: '/DeshCapstone.png',
+        icon: '/AnzhelikaCapstone.png',
         badge: '/icons/icon-72x72.png',
         vibrate: [100, 50, 100],
         data: {
@@ -146,3 +146,4 @@ async function sendMessage(message) {
 async function clearQueuedMessages() {
     // Implementation would go here
 }
+
